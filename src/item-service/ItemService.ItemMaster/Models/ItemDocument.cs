@@ -53,5 +53,8 @@ namespace ItemService.ItemMaster.Models
         
         [JsonProperty("unitPrice")]
         public int UnitPrice { get; set; }
+        
+        [JsonProperty("expireDate")]
+        public DateTime? ExpireDate { get; set; }
     }
 }

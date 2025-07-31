@@ -162,6 +162,11 @@ paths:
                         unitPrice:
                           type: integer
                           example: 600
+                        expireDate:
+                          type: string
+                          format: date-time
+                          example: "2024-12-31T23:59:59Z"
+                          description: "商品の賞味期限"
       security:
       - api_key: []
 components:
